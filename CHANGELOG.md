@@ -23,6 +23,18 @@ This project adheres to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ---
 
+## [1.0.1] - 2025-11-07
+
+### Changed
+
+- Bumped project version to `v1.0.1`.
+
+### Fixed
+
+- Corrected images in `README.md` to point to [jsDelivr](https://www.jsdelivr.com/) instead of using relative paths.
+
+---
+
 ## [1.0.0] – 2025-11-07
 
 ### Added
