@@ -1,0 +1,64 @@
+site_name: Privacy & Security Apps and Services — Network Pro™
+site_url: https://apps.netwk.pro
+repo_url: https://github.com/netwk-pro/privacy-apps/
+repo_name: GitHub
+docs_dir: src
+site_dir: build/
+
+theme:
+  name: material
+  language: en
+  font:
+    text: null
+    code: null
+  logo: img/icon-512x512.png
+  favicon: img/favicon.svg
+  palette:
+    # Default to dark mode
+    - scheme: slate
+      primary: amber
+      accent: yellow
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    # Optional light mode
+    - scheme: default
+      primary: orange
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+    - search.suggest
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details # Enables `???` collapsibles
+  - pymdownx.superfences # Optional but recommended for nested blocks
+  - toc:
+      toc_depth: 2 # This limits TOC to H2 only (default is 1-6)
+
+plugins:
+  - privacy:
+      assets: true
+      assets_fetch: true
+
+extra:
+  base_url: /
+
+copyright: >
+  Copyright &copy; 2025 Network Pro Strategies (Network Pro&trade;) – This site
+  does not use cookies. See our <a href="https://netwk.pro/privacy">Privacy
+  Policy</a> for details.
+
+nav:
+  - Privacy & Security Apps and Services: index.md
+  - Website: https://netwk.pro
+  - Blog: https://blog.netwk.pro
+# cspell:ignore pymdownx superfences collapsibles

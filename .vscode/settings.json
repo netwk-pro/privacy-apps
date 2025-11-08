@@ -1,0 +1,36 @@
+{
+  // Editor settings
+  "editor.defaultFoldingRangeProvider": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[markdown]": {
+    "editor.defaultFoldingRangeProvider": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // ESLint configuration
+  "eslint.workingDirectories": ["D:\\Netwk-Pro\\git\\privacy-apps"],
+  "eslint.validate": ["html", "javascript", "javascriptreact", "json", "jsonc"],
+  "eslint.lintTask.enable": true,
+  "eslint.lintTask.options": "--ext .mjs,.js,.cjs,.json,.jsonc --config eslint.config.mjs .",
+  "eslint.useESLintClass": true,
+  "eslint.useFlatConfig": true,
+  "eslint.codeActionsOnSave.mode": "problems",
+  "eslint.probe": ["javascript", "javascriptreact", "html", "json", "jsonc"],
+  // Stylelint configuration
+  "stylelint.configBasedir": "D:\\Netwk-Pro\\git\\privacy-apps",
+  "stylelint.configFile": "stylelint.config.js",
+  "stylelint.customSyntax": "postcss-html",
+  "stylelint.validate": ["css", "postcss", "html"],
+  // Custom CSS data for FontAwesome classes
+  "css.customData": [
+    ".vscode/customData.json" // Path to your custom data file
+  ],
+  // Locations of CSS files for validation
+  "css.styleSheets": ["**/*.css"],
+  "markdown.validate.enabled": false,
+}
