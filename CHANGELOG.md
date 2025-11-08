@@ -23,6 +23,19 @@ This project adheres to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ---
 
+## [1.0.2] - 2025-11-07
+
+### Added
+
+- Added links to GitHub Discussions and create a new issue in `README.md` and `src/index.md`.
+
+### Changed
+
+- Updated `README.md` and `src/index.md` such that every entry has either an F-Droid or Play Store link, where appropriate.
+- Bumped project version to `v1.0.2`.
+
+---
+
 ## [1.0.1] - 2025-11-07
 
 ### Changed
@@ -53,5 +66,7 @@ This project adheres to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 <!-- Link references -->
 
-[Unreleased]: https://github.com/netwk-pro/privacy-apps/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/netwk-pro/privacy-apps/compare/v1.0.2...HEAD
+[1.0.2]: https://github.com/netwk-pro/privacy-apps/releases/tag/v1.0.2
+[1.0.1]: https://github.com/netwk-pro/privacy-apps/releases/tag/v1.0.1
 [1.0.0]: https://github.com/netwk-pro/privacy-apps/releases/tag/v1.0.0
