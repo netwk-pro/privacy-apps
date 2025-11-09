@@ -15,7 +15,7 @@ This file is part of Network Pro.
 **Network Pro Strategies** (Network Pro&trade;)<br />
 **Last Updated:** November 7, 2025
 
-A listing of the best apps and services—open source, where possible—for protecting your security and privacy online. For a human-friendly version of this page, please visit [apps.netwk.pro](apps.netwk.pro).
+A listing of the best apps and services—open source, where possible—for protecting your security and privacy online. For a human-friendly version of this page, please visit [apps.netwk.pro](https://apps.netwk.pro).
 
 <!-- markdownlint-disable MD001 -->
 
@@ -282,7 +282,7 @@ Firefox `user.js` mods typically consist of a `user.js` file, a `prefs.js` file,
 
 <a name="instant-messaging"></a>
 
-## 🗪 Instant Messaging Apps
+## 💬 Instant Messaging Apps
 
 <img src="https://cdn.jsdelivr.net/gh/netwk-pro/privacy-apps@refs/heads/master/src/img/apps/molly.png" width="20" height="20" alt="Molly" /> [Molly](https://github.com/mollyim/mollyim-android) 🌎 ⭐ ❤
 

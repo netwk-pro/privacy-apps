@@ -1,5 +1,5 @@
 <!-- =====================================================================
-CHANGELOG.template.md
+CHANGELOG.md
 
 Copyright © 2025 Network Pro Strategies (Network Pro™)
 SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later
@@ -20,6 +20,21 @@ This project adheres to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 - Separate **Apps** and **Services** sections.
 - Nested app categories for simpler navigation.
+
+---
+
+## [1.0.3] - 2025-11-08
+
+### Changed
+
+- Modified emoji used for **Instant Messaging** section to one that is universally supported:
+  - `README.md`
+  - `src/index.md`
+- Bumped version to `v1.0.3`.
+
+### Fixed
+
+- Corrected link in `README.md` for [apps.netwk.pro](https://apps.netwk.pro).
 
 ---
 
