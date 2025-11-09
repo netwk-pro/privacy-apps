@@ -19,6 +19,8 @@ A listing of the best apps and services—open source, where possible—for prot
 
 <!-- markdownlint-disable MD001 -->
 
+### Table of Contents
+
 ??? info "Apps"
 
     ### Apps
@@ -190,7 +192,7 @@ A listing of the best apps and services—open source, where possible—for prot
     <img src="img/apps/cromite.png" width="20" height="20" alt="Cromite"> [Cromite](https://github.com/uazo/cromite/) 🌎
 
     - If you want a Chrome interface, you may like Cromite. Similarly to Brave, it offers fairly robust privacy features, including Adblock. See [caveat](#chrome).
-    - Can be installed on mobile with [FFUpdater](https://f-droid.org/en/packages/de.marmaro.krt.ffupdater/)<sup>[F-Droid](https://f-droid.org/en/packages/de.marmaro.krt.ffupdater/) | [GitHub](https://github.com/Tobi823/ffupdater)</sup>.
+    - Can be installed on mobile with [FFUpdater](https://f-droid.org/en/packages/de.marmaro.krt.ffupdater/) <sup>[F-Droid](https://f-droid.org/en/packages/de.marmaro.krt.ffupdater/) | [GitHub](https://github.com/Tobi823/ffupdater)</sup>.
 
     &nbsp;
 
@@ -314,7 +316,7 @@ A listing of the best apps and services—open source, where possible—for prot
 
 ??? info "Instant Messaging Apps"
 
-    ## 🗪 Instant Messaging Apps
+    ## 💬 Instant Messaging Apps
 
     <img src="img/apps/molly.png" width="20" height="20" alt="Molly" /> [Molly](https://github.com/mollyim/mollyim-android) 🌎 ⭐ ❤
 
