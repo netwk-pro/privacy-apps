@@ -51,6 +51,25 @@ plugins:
 
 extra:
   base_url: /
+  social:
+    - icon: fontawesome/brands/instagram
+      name: Network Pro on Instagram
+      link: https://instagram.com/netwk_pro
+    - icon: fontawesome/brands/facebook
+      name: Network Pro on Facebook
+      link: https://facebook.com/neteng.pro
+    - icon: fontawesome/brands/linkedin
+      name: Network Pro on LinkedIn
+      link: https://linkedin.com/company/netwk-pro
+    - icon: fontawesome/brands/mastodon
+      name: Network Pro on Mastodon
+      link: https://noc.social/@neteng_pro
+    - icon: fontawesome/brands/discord
+      name: Network Pro on Discord
+      link: https://discord.neteng.pro
+    - icon: fontawesome/solid/at
+      name: Contact Us
+      link: https://netwk.pro/contact
 
 copyright: >
   Copyright &copy; 2025 Network Pro Strategies (Network Pro&trade;) – This site
@@ -61,4 +80,5 @@ nav:
   - Privacy & Security Apps and Services: index.md
   - Website: https://netwk.pro
   - Blog: https://blog.netwk.pro
+  - Hardening Brave: https://brave.netwk.pro
 # cspell:ignore pymdownx superfences collapsibles
