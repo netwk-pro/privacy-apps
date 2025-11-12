@@ -507,6 +507,8 @@ A listing of the best apps and services—open source, where possible—for prot
 
     <img src="img/apps/librera.png" width="20" height="20" alt="Librera Reader" /> [Librera Reader](https://librera.mobi/) <sup>[F-Droid](https://f-droid.org/en/packages/com.foobnix.pro.pdf.reader/) | [GitHub](https://github.com/foobnix/LibreraReader)</sup> 🇺🇦 👑 ⭐
 
+    <img src="img/apps/sav-pdf.png" width="20" height="20" alt="Sav PDF Viewer" /> [Sav PDF Viewer](https://www.savpdfviewer.com/) <sup>[Play Store](https://play.google.com/store/apps/details?id=com.saverio.pdfviewer) | [GitHub](https://github.com/Sav22999/sav-pdf-viewer-pro)</sup>
+
     &nbsp;
 
     <sub>[Back to top](#top)</sub>

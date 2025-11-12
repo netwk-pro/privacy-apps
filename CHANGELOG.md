@@ -23,6 +23,26 @@ This project adheres to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ---
 
+## [1.0.4] - 2025-11-11
+
+### Added
+
+- Introduced **Sav PDF Viewer** into the **PDF Readers** category.
+  - Added `src/img/apps/sav-pdf.png` image asset.
+  - Updated the entry in both `src/index.md` and `README.md`.
+
+### Changed
+
+- Added a link to the [Privacy & Security Apps and Services](https://apps.netwk.pro) site.
+- Updated `mkdocs.yml` to display social media icons/links in the footer.
+- Bumped project version to `v1.0.4`.
+- Updated dependencies:
+  - `autoprefixer` `^10.4.21` → `^10.4.22`
+  - `browserslist` `^4.27.0` → `^4.28.0`
+  - `mkdocs-material` `9.6.23` → `9.7.0`
+
+---
+
 ## [1.0.3] - 2025-11-08
 
 ### Changed
