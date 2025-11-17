@@ -18,8 +18,24 @@ This project adheres to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [Unreleased]
 
-- Separate **Apps** and **Services** sections.
-- Nested app categories for simpler navigation.
+---
+
+## [1.1.0] - 2025-11-16
+
+### Added
+
+- Introduced `simple-git-hooks` devDependency and set up commit and push hooks.
+- Added all image assets locally, such that the site is no longer dependent upon third-party assets.
+- Added `robots.txt` and `sitemap.xml` for crawlers.
+
+### Changed
+
+- Updated `.markdownlint.mjs` to ignore rule `MD060`, which is unnecessarily strict and doesn't affect render output.
+- Optimized all images for thumbnail-size display and removed metadata.
+- Broke out sections into nested pages for cleaner separation and navigation.
+- Bumped project version to `v1.1.0`.
+- Updated dependencies:
+  - `markdownlint-cli` `^0.18.1` → `^0.19.0`
 
 ---
 
@@ -101,7 +117,8 @@ This project adheres to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 <!-- Link references -->
 
-[Unreleased]: https://github.com/netwk-pro/privacy-apps/compare/v1.0.4...HEAD
+[Unreleased]: https://github.com/netwk-pro/privacy-apps/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/netwk-pro/privacy-apps/releases/tag/v1.1.0
 [1.0.4]: https://github.com/netwk-pro/privacy-apps/releases/tag/v1.0.4
 [1.0.3]: https://github.com/netwk-pro/privacy-apps/releases/tag/v1.0.3
 [1.0.2]: https://github.com/netwk-pro/privacy-apps/releases/tag/v1.0.2

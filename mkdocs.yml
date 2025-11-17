@@ -41,8 +41,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details # Enables `???` collapsibles
   - pymdownx.superfences # Optional but recommended for nested blocks
-  - toc:
-      toc_depth: 2 # This limits TOC to H2 only (default is 1-6)
+  #- toc:
+  #    toc_depth: 2 # This limits TOC to H2 only (default is 1-6)
 
 plugins:
   - privacy:
@@ -77,7 +77,34 @@ copyright: >
   Policy</a> for details.
 
 nav:
-  - Privacy & Security Apps and Services: index.md
+  - Privacy & Security Apps and Services:
+      - Overview: index.md
+      - App Stores: stores.md
+      - 2FA: 2fa.md
+      - Browsers: browsers.md
+      - Cloud Storage: cloud.md
+      - Email Clients: email-clients.md
+      - Email Providers: email-providers.md
+      - File Encryption: encryption.md
+      - File Managers: file-managers.md
+      - Gallery and Photo: gallery.md
+      - Health and Wellness: health.md
+      - Instant Messaging: instant-messaging.md
+      - Default Messaging: default-messaging.md
+      - Keyboards: keyboards.md
+      - Music Players: music.md
+      - Navigation (Maps): navigation.md
+      - Network Security & Privacy: network-security.md
+      - Notes: notes.md
+      - Password Managers: password-managers.md
+      - PDF Viewers: pdf.md
+      - Private DNS: private-dns.md
+      - Search Engines: search-engines.md
+      - Video Players: video.md
+      - VPNs: vpn.md
+      - Weather: weather.md
+      - Work Profile: work-profile.md
+      - YouTube: youtube.md
   - Website: https://netwk.pro
   - Blog: https://blog.netwk.pro
   - Hardening Brave: https://brave.netwk.pro
