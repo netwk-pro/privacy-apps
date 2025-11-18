@@ -4,24 +4,15 @@
 # SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later
 # This file is part of Network Pro
 
-name: Build Site and Deploy to GH Pages
+name: Build MkDocs Site and Deploy to Vercel
 
 on:
   release:
     types: [created]
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  actions: read
-  contents: read
-  pages: write
-  id-token: write
-
-# Allow one concurrent deployment
-concurrency:
-  group: 'pages'
-  cancel-in-progress: true
+  contents: write
 
 jobs:
   check-codeql:
@@ -30,6 +21,8 @@ jobs:
   build:
     needs: check-codeql
     runs-on: ubuntu-24.04
+    env:
+      ENV_MODE: ci
 
     steps:
       - name: Checkout repository
@@ -37,54 +30,37 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version: 24
-          cache: npm
-          cache-dependency-path: package-lock.json
-
-      - name: Upgrade npm
-        run: |
-          corepack enable
-          npm install -g npm@11.6.2
-
-      - name: Set up Pages
-        uses: actions/configure-pages@v5
-
-      - name: Install Node.js dependencies
-        run: npm ci
-
-      # Begin Material for MkDocs setup
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version-file: '.python-version'
-          cache: 'pip'
+          cache: pip
 
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      # Strict mode disabled for mkdocs-material
       - name: Build MkDocs documentation
-        run: mkdocs build
+        run: mkdocs build --clean --site-dir build
 
-      - name: Copy package.json to build directory
-        run: cp package.json build/
+      - name: Copy vercel.json to build output
+        run: cp vercel.json build/
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: ./build
+      - name: Deploy to Vercel branch
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
 
-  deploy:
-    needs: [check-codeql, build]
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-24.04
+          # Create orphan deploy branch and wipe contents
+          git switch --orphan vercel-deploy
+          git rm -rf . || true
 
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          # Copy built site
+          cp -r build/* .
+
+          # Commit and push deploy contents
+          git add .
+          git commit -m "Deploy to Vercel from GitHub Actions"
+          git push -f origin vercel-deploy
+
+      - name: Clean up build directory
+        run: rm -rf build
