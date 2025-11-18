@@ -36,6 +36,10 @@ This project adheres to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Disabled external fonts and scripts via the Material for MkDocs privacy plugin.
 - Refined CSP `font-src` and `style-src` directives to allow self-hosted and inline assets only.
 
+### Fixed
+
+- Restored `actions: read` permission in `build-and-deploy.yml` to allow the `check-codeql` reusable workflow to execute successfully.
+
 ---
 
 ## [1.1.0] - 2025-11-16
