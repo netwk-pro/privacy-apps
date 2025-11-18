@@ -20,6 +20,30 @@ This project adheres to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ---
 
+## [1.1.2] - 2025-11-18
+
+### Added
+
+- `netlify.toml` build configuration file with:
+  - Custom build command: `mkdocs build --clean --site-dir build`
+  - Output directory: `build`
+  - Strict security headers including Content-Security-Policy with CSP report URI
+- `.python-version` specifying the Python runtime for Netlify's build environment
+- Verified `requirements.txt` includes all necessary MkDocs and plugin dependencies
+
+### Changed
+
+- Switched hosting target from Vercel/GitHub Pages to **Netlify** for simplicity, CSP support, and automatic deployment.
+- Replaced GitHub Actions-based deployment (`build-and-deploy.yml`) with native Netlify build handling.
+- Bumped project version to `v1.1.2`.
+
+### Removed
+
+- GitHub Actions workflow `.github/workflows/build-and-deploy.yml`
+- All custom Vercel deployment logic (e.g., `vercel.json`, `.vercelignore`, custom deployment branch)
+
+---
+
 ## [1.1.1] - 2025-11-18
 
 ### Added
@@ -139,7 +163,8 @@ This project adheres to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 <!-- Link references -->
 
-[Unreleased]: https://github.com/netwk-pro/privacy-apps/compare/v1.1.1...HEAD
+[Unreleased]: https://github.com/netwk-pro/privacy-apps/compare/v1.1.2...HEAD
+[1.1.2]: https://github.com/netwk-pro/privacy-apps/releases/tag/v1.1.2
 [1.1.1]: https://github.com/netwk-pro/privacy-apps/releases/tag/v1.1.1
 [1.1.0]: https://github.com/netwk-pro/privacy-apps/releases/tag/v1.1.0
 [1.0.4]: https://github.com/netwk-pro/privacy-apps/releases/tag/v1.0.4
