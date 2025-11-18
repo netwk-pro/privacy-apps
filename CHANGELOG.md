@@ -20,6 +20,24 @@ This project adheres to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ---
 
+## [1.1.1] - 2025-11-18
+
+### Added
+
+- Introduced GitHub Actions workflow `build-and-deploy.yml` to automate MkDocs builds and deploy output to `vercel-deploy` branch.
+- Added `vercel.json` with strict Content Security Policy, referrer policy, and secure headers for production deploys.
+- Created `.vercelignore` to prevent non-essential files from being uploaded to Vercel during deploy.
+- Configured Vercel to ignore builds on all branches except `vercel-deploy` using a custom ignored build step.
+- Enabled CSP violation reporting via existing endpoint at `https://csp.netwk.pro/.netlify/functions/csp-report`.
+
+### Changed
+
+- Updated `mkdocs.yml` to use `site_dir: build/` for alignment with Vercel static deploy requirements.
+- Disabled external fonts and scripts via the Material for MkDocs privacy plugin.
+- Refined CSP `font-src` and `style-src` directives to allow self-hosted and inline assets only.
+
+---
+
 ## [1.1.0] - 2025-11-16
 
 ### Added
@@ -117,7 +135,8 @@ This project adheres to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 <!-- Link references -->
 
-[Unreleased]: https://github.com/netwk-pro/privacy-apps/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/netwk-pro/privacy-apps/compare/v1.1.1...HEAD
+[1.1.1]: https://github.com/netwk-pro/privacy-apps/releases/tag/v1.1.1
 [1.1.0]: https://github.com/netwk-pro/privacy-apps/releases/tag/v1.1.0
 [1.0.4]: https://github.com/netwk-pro/privacy-apps/releases/tag/v1.0.4
 [1.0.3]: https://github.com/netwk-pro/privacy-apps/releases/tag/v1.0.3
