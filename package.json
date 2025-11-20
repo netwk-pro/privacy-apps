@@ -1,6 +1,6 @@
 {
   "name": "privacy-apps",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "A selection of the best privacy and security apps and services.",
   "keywords": [
     "foss",
@@ -27,7 +27,7 @@
   },
   "type": "module",
   "scripts": {
-    "dev": "mkdocs serve",
+    "dev": "mkdocs serve --livereload",
     "start": "npm run dev",
     "build": "mkdocs build",
     "delete": "rm -rf build node_modules package-lock.json",

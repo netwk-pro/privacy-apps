@@ -13,7 +13,7 @@ This file is part of Network Pro.
 # Two-Factor (2FA) Authenticators
 
 **Network Pro Strategies** (Network Pro&trade;)<br />
-**Last Updated:** November 16, 2025
+**Last Updated:** November 19, 2025
 
 Two-Factor Authentication (2FA) apps add a vital layer of security by requiring a second form of verification, protecting against phishing and account compromise. This section features free and open-source authenticators that respect user privacy, operate offline, and offer transparent, audit-friendly code—ensuring strong security without relying on closed systems or third parties.
 
@@ -44,12 +44,12 @@ Two-Factor Authentication (2FA) apps add a vital layer of security by requiring 
 
 ## Online Apps
 
-<img src="../img/apps/enteauth.png" width="20" height="20" alt="Ente Auth" /> [Ente Auth](https://ente.io/auth/) <sup>[F-Droid](https://f-droid.org/en/packages/io.ente.auth/)</sup> 🇮🇳 <sup>IN</sup> 👑 ⭐ ❤️ ❤
+<img src="../img/apps/enteauth.png" width="20" height="20" alt="Ente Auth" /> [Ente Auth](https://ente.io/auth/) <sup>[F-Droid](https://f-droid.org/en/packages/io.ente.auth/) | [GitHub](https://github.com/ente-io/ente/)</sup> 🇮🇳 <sup>IN</sup> 👑 ⭐ ❤️ ❤
 
 - A cross platform TOTP app with secure E2EE syncing on all major operating systems.
 - While Ente is an Indian company, its infrastructure is hosted in Germany and complies with the EU GDPR.
 
-<img src="../img/apps/proton-auth.svg" width="20" height="20" alt="Proton Auth" /> [Proton Auth](https://proton.me/authenticator) <sup>[Play Store](https://play.google.com/store/apps/details?id=proton.android.authenticator)</sup> 🇨🇭 <sup>CH</sup>
+<img src="../img/apps/proton-auth.svg" width="20" height="20" alt="Proton Auth" /> [Proton Auth](https://proton.me/authenticator) <sup>[Play Store](https://play.google.com/store/apps/details?id=proton.android.authenticator) | [GitHub](https://github.com/orgs/protonpass/repositories)</sup> 🇨🇭 <sup>CH</sup>
 
 - A cross platform TOTP app with secure E2EE syncing on all major operating systems.
 
@@ -63,7 +63,7 @@ Two-Factor Authentication (2FA) apps add a vital layer of security by requiring 
 
 ## Offline Apps
 
-<img src="../img/apps/aegis.png" width="20" height="20" alt="Aegis Authenticator" /> [Aegis Authenticator](https://getaegis.app/) <sup>[F-Droid](https://f-droid.org/en/packages/com.beemdevelopment.aegis/)</sup> 🌎 👑 ⭐
+<img src="../img/apps/aegis.png" width="20" height="20" alt="Aegis Authenticator" /> [Aegis Authenticator](https://getaegis.app/) <sup>[F-Droid](https://f-droid.org/en/packages/com.beemdevelopment.aegis/) | [GitHub](https://github.com/beemdevelopment/Aegis)</sup> 🌎 👑 ⭐
 
 - Aegis is one of the most polished & simple TOTP services for Android.
 

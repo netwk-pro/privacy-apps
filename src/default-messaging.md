@@ -10,12 +10,12 @@ This file is part of Network Pro.
 
 <a name="top"></a>
 
-# <img src="../img/messaging.png" width="20" height="20" alt="Default Messaging Apps (Offline)" /> Default Messaging Apps
+# <img src="../img/messaging.png" width="35" height="35" alt="Default Messaging Apps (Offline)" /> Default Messaging Apps
 
 **Network Pro Strategies** (Network Pro&trade;)<br />
-**Last Updated:** November 16, 2025
+**Last Updated:** November 19, 2025
 
-While SMS is not a secure protocol, it remains a default communication channel on most phones — especially when interacting with contacts who don't use encrypted messengers. This section highlights minimal, privacy-respecting SMS apps that avoid tracking, ads, and unnecessary permissions, offering a clean interface for managing legacy SMS/MMS messaging.
+While SMS is not a secure protocol, it remains a default communication channel on most phones — especially when interacting with contacts who don't use encrypted messengers. This section highlights minimal, privacy-respecting SMS apps that avoid tracking, ads, and unnecessary permissions, offering a clean interface for managing legacy SMS/MMS messaging!
 
 &nbsp;
 
@@ -52,10 +52,10 @@ While SMS is not a secure protocol, it remains a default communication channel o
 - Modern, open-source SMS/MMS client from the Fossify suite, focused on **minimal permissions**, **no tracking**, and **full offline operation**.
 - Features dark mode, group messaging, search, archiving, scheduled messages, and multi-SIM support — all without ads or analytics.
 
-<img src="../img/apps/qksms.png" width="20" height="20" alt="QKSMS" /> [QKSMS](https://github.com/moezbhatti/qksms) <sup>[Play Store](https://play.google.com/store/apps/details?id=com.moez.QKSMS)</sup> 🌎
+<img src="../img/apps/quik-sms.png" width="20" height="20" alt="QUIK SMS" /> [QUIK SMS](https://f-droid.org/en/packages/dev.octoshrimpy.quik/) <sup>[GitHub](https://github.com/octoshrimpy/quik)</sup> 🌎
 
-- Once a popular open-source SMS/MMS app with a clean Material UI and useful features like night mode, per-contact colors, and message scheduling.
-- Still functional, but **no longer actively maintained** — best used only if Fossify Messages does not meet specific needs.
+- Free & open source SMS/MMS messenger for Android, licensed under GPL‑3.0‑only.
+- A modern continuation of the discontinued **QKSMS** project, with features like scheduled messages, message backup and a refreshed UI — making it a strong privacy‑respecting replacement for the stock messaging app.
 
 <img src="../img/apps/textra.png" width="20" height="20" alt="Textra" /> [Textra](https://textra.me/) <sup>[Play Store](https://play.google.com/store/apps/details?id=com.textra)</sup> 🇦🇺 <sup>AU</sup> ❤ 💲
 

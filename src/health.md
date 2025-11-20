@@ -10,10 +10,10 @@ This file is part of Network Pro.
 
 <a name="top"></a>
 
-# <img src="../img/health.png" width="20" height="20" alt="Health and Wellness Apps" /> Health and Wellness Apps
+# <img src="../img/health.png" width="35" height="35" alt="Health and Wellness Apps" /> Health and Wellness Apps
 
 **Network Pro Strategies** (Network Pro&trade;)<br />
-**Last Updated:** November 16, 2025
+**Last Updated:** November 19, 2025
 
 Health and wellness apps in the privacy-focused ecosystem aim to support physical and mental well-being without compromising user data. This section highlights open-source and minimally invasive tools for habit tracking, fitness logging, mindfulness, and general self-care — all free of advertising, analytics, and cloud lock-in. Whether you're managing routines, quitting harmful habits, or simply looking to improve your daily health practices, these apps offer functionality without surveillance.
 

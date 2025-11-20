@@ -13,7 +13,7 @@ This file is part of Network Pro.
 # 🌐 Private DNS
 
 **Network Pro Strategies** (Network Pro&trade;)<br />
-**Last Updated:** November 16, 2025
+**Last Updated:** November 19, 2025
 
 Private DNS services enhance both privacy and security by encrypting DNS queries and optionally filtering out malicious or unwanted content. Whether you prefer fully customizable platforms like Control D and NextDNS or turnkey solutions like Quad9 and AdGuard DNS, these providers help prevent ISP-level tracking and mitigate threats such as phishing or malware domains—often with minimal setup required.
 
@@ -35,7 +35,7 @@ Private DNS services enhance both privacy and security by encrypting DNS queries
 
 !!! warning "Notice"
 
-[Learn to setup Private DNS](https://www.online-tech-tips.com/computer-tips/what-is-private-dns-and-how-to-use-it/)
+    [Learn to setup Private DNS](https://www.online-tech-tips.com/computer-tips/what-is-private-dns-and-how-to-use-it/)
 
 ---
 

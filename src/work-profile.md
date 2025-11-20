@@ -10,10 +10,10 @@ This file is part of Network Pro.
 
 <a name="top"></a>
 
-# <img src="../img/work.png" width="20" height="20" alt="Work Profile Apps" /> Work Profile Apps
+# <img src="../img/work.png" width="35" height="35" alt="Work Profile Apps" /> Work Profile Apps
 
 **Network Pro Strategies** (Network Pro&trade;)<br />
-**Last Updated:** November 16, 2025
+**Last Updated:** November 19, 2025
 
 Work profile apps like Shelter and Insular leverage Android’s built-in profile isolation to create sandboxed environments for apps. This separation allows users to freeze or clone apps, prevent background access, and limit data sharing—making them powerful tools for enhancing privacy, reducing tracking, or managing dual app instances.
 

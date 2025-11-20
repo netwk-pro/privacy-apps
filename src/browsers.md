@@ -13,11 +13,13 @@ This file is part of Network Pro.
 # 🔗 Browsers
 
 **Network Pro Strategies** (Network Pro&trade;)<br />
-**Last Updated:** November 16, 2025
+**Last Updated:** November 19, 2025
 
 Privacy-focused browsers aim to reduce tracking, fingerprinting, and data collection while maintaining compatibility with modern websites. Options like Firefox (with hardened settings), Brave, and Mullvad Browser prioritize user anonymity, block intrusive ads and scripts, and offer greater control over online activity compared to mainstream browsers.
 
 - [Firefox](#firefox)
+- [Firefox `user.js` Mods](#userjs)
+- [Firefox Forks](#forks)
 - [Chromium](#chromium)
 
 &nbsp;
@@ -42,16 +44,20 @@ Privacy-focused browsers aim to reduce tracking, fingerprinting, and data collec
 <img src="../img/apps/firefox.png" width="20" height="20" alt="firefox" /> [Firefox](https://www.firefox.com/) 🇺🇸 <sup>US</sup> 👑 ⭐ ❤️ and its FOSS version: [Fennec](https://f-droid.org/packages/org.mozilla.fennec_fdroid/) <sup>[Repo](https://hg.mozilla.org/mozilla-central/file/tip/mobile/android)</sup>
 🌎 👑 ⭐ ❤
 
-- We highly recommend using [FFUpdater](https://f-droid.org/en/packages/de.marmaro.krt.ffupdater/) <sup>[F-Droid](https://f-droid.org/en/packages/de.marmaro.krt.ffupdater/) | [GitHub](https://github.com/Tobi823/ffupdater)</sup> to install and manage privacy-centric browsers on mobile.
+- We highly recommend using [FFUpdater](https://f-droid.org/en/packages/de.marmaro.krt.ffupdater/) <sup>[GitHub](https://github.com/Tobi823/ffupdater)</sup> to install and manage privacy-centric browsers on mobile.
 
 !!! warning "Reality Check"
 
     There's a misconception that in order for Firefox to be useable, it requires lots of changes and extensions. Nothing could be further from the truth. In fact, there are only [a handful of truly useful extensions](https://github.com/arkenfox/user.js/wiki/4.1-Extensions) (uBlock Origin, CanvasBlocker, etc.).
 
-    Realistically, Firefox is no more complicated to set up and configure than Brave, for example. However, if you feel you need a guide, you may want to take a look here:
+    For example, Firefox is no more complicated to set up and configure than Brave. However, if you feel you need a guide, you may want to review the following resources:
 
     - [Techlore: The Ultimate Guide to Firefox Hardening! (YouTube)](https://youtu.be/F7-bW2y6lcI)
     - [Yet Another Firefox Hardening Guide (Archive.org)](https://web.archive.org/web/20221013104259/https://chrisx.xyz/blog/yet-another-firefox-hardening-guide/)
+
+---
+
+<section id="userjs"></section>
 
 ### Firefox user.js Mods
 
@@ -72,10 +78,16 @@ Firefox `user.js` mods typically consist of a `user.js` file, a `prefs.js` file,
 - The original `user.js` modification project. While highly functional, this is only recommended for extremely advanced users.
 - For a visual overview, an [arkenfox GUI](https://arkenfox.github.io/gui/) is also available.
 
-### Firefox Forks (coming soon!)
+---
 
-- Zen Browser
+<section id="forks"></section>
+
+### Firefox Forks
+
+**_Coming Soon!_**
+
 - LibreWolf
+- Zen Browser
 
 ---
 
@@ -85,19 +97,21 @@ Firefox `user.js` mods typically consist of a `user.js` file, a `prefs.js` file,
 
 <img width="20" height="20" src="../img/apps/brave.png" alt="Brave Browser"/> [Brave](https://play.google.com/store/apps/details?id=com.brave.browser) <sup>[GitHub](https://github.com/brave/brave-browser)</sup> 🇺🇸 <sup>US</sup> 👑 ⭐ [_(How to Harden Brave Browser)_](https://brave.netwk.pro)
 
-- Harden Brave Browser before using it! See [caveat](#chrome).
-- Can be installed using [FFUpdater](https://f-droid.org/en/packages/de.marmaro.krt.ffupdater/) <sup>[F-Droid](https://f-droid.org/en/packages/de.marmaro.krt.ffupdater/) | [GitHub](https://github.com/Tobi823/ffupdater)</sup> on mobile.
+- Harden Brave Browser before using it!
+- Brave can be installed using [FFUpdater](https://f-droid.org/en/packages/de.marmaro.krt.ffupdater/) <sup>[GitHub](https://github.com/Tobi823/ffupdater)</sup> on mobile.
+- See [caveat](#chrome).
 
 <img src="../img/apps/cromite.png" width="20" height="20" alt="Cromite"> [Cromite](https://github.com/uazo/cromite/) 🌎
 
-- If you want a Chrome interface, you may like Cromite. Similarly to Brave, it offers fairly robust privacy features, including Adblock. See [caveat](#chrome).
-- Can be installed on mobile with [FFUpdater](https://f-droid.org/en/packages/de.marmaro.krt.ffupdater/) <sup>[F-Droid](https://f-droid.org/en/packages/de.marmaro.krt.ffupdater/) | [GitHub](https://github.com/Tobi823/ffupdater)</sup>.
+- If you want a Chrome interface, you may like Cromite. Similarly to Brave, it offers fairly robust privacy features, including Adblock Plus.
+- Can be installed on mobile with [FFUpdater](https://f-droid.org/en/packages/de.marmaro.krt.ffupdater/) <sup>[GitHub](https://github.com/Tobi823/ffupdater)</sup>.
+- See [caveat](#chrome).
 
 &nbsp;
 
 <sub>[Back to top](#top)</sub>
 
-<a name="chrome"></a>
+<section id="chrome"></section>
 
 !!! warning "Chromium Notice"
 

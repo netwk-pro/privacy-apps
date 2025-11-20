@@ -13,7 +13,7 @@ This file is part of Network Pro.
 # Privacy & Security Apps and Services
 
 **Network Pro Strategies** (Network Pro&trade;)<br />
-**Last Updated:** November 16, 2025
+**Last Updated:** November 19, 2025
 
 A listing of the best apps and services—open source, where possible—for protecting your security and privacy online. Simply select the relevant section to see the recommended apps.
 

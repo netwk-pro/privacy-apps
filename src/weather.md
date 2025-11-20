@@ -13,7 +13,7 @@ This file is part of Network Pro.
 # ☔ Weather Apps
 
 **Network Pro Strategies** (Network Pro&trade;)<br />
-**Last Updated:** November 16, 2025
+**Last Updated:** November 19, 2025
 
 Weather apps are a common source of background tracking and location abuse, often sharing data with third parties. Privacy-respecting alternatives like Weather Master, OSS Weather, and QuickWeather prioritize local processing, minimal permissions, and clean interfaces—offering accurate forecasts without compromising your personal data.
 
@@ -35,6 +35,8 @@ Weather apps are a common source of background tracking and location abuse, ofte
 <section id="weather"></section>
 
 <img src="../img/apps/weathermaster.png" width="20" height="20" alt="Weather Master" /> [Weather Master](https://apt.izzysoft.de/fdroid/index/apk/com.pranshulgg.weather_master_app) <sup>[GitHub](https://github.com/PranshulGG/WeatherMaster)</sup> 🌎 ⭐ ❤️ ❤
+
+<img src="../img/apps/breezy-weather.png" width="20" height="20" alt="Breezy Weather" /> [Breezy Weather](https://f-droid.org/en/packages/org.breezyweather/) <sup>[GitHub](https://github.com/breezy-weather/breezy-weather)</sup> 🌎 ⭐
 
 <img src="../img/apps/ossweather.png" width="20" height="20" alt="OSS Weather" /> [OSS Weather](https://apt.izzysoft.de/fdroid/index/apk/com.akylas.weather) <sup>[GitHub](https://github.com/Akylas/oss-weather)</sup> 🌎 ⭐
 

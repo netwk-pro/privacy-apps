@@ -13,7 +13,7 @@ This file is part of Network Pro.
 # 🔒 VPN Providers
 
 **Network Pro Strategies** (Network Pro&trade;)<br />
-**Last Updated:** November 16, 2025
+**Last Updated:** November 19, 2025
 
 Virtual Private Networks (VPNs) play a critical role in safeguarding online privacy by encrypting traffic and masking IP addresses. However, not all VPNs are created equal—some log user activity, inject ads, or compromise security through poor practices. This section highlights reputable, no-logs VPN providers like Mullvad, Proton VPN, and IVPN, each of which demonstrates strong commitments to privacy through transparent policies, open-source clients, and independent audits.
 
@@ -38,11 +38,11 @@ Virtual Private Networks (VPNs) play a critical role in safeguarding online priv
 
 <section id="vpn"></section>
 
-<img src="../img/apps/mullvad.png" width="20" height="20" alt="Mullvad VPN" /> [Mullvad VPN](https://mullvad.net/en/) <sup>[F-Droid](https://f-droid.org/en/packages/net.mullvad.mullvadvpn/)</sup> 🇸🇪 <sup>SE</sup> 👑 ⭐ ❤️ ❤
+<img src="../img/apps/mullvad.png" width="20" height="20" alt="Mullvad VPN" /> [Mullvad VPN](https://mullvad.net/en/) <sup>[F-Droid](https://f-droid.org/en/packages/net.mullvad.mullvadvpn/) | [GitHub](https://github.com/mullvad)</sup> 🇸🇪 <sup>SE</sup> 👑 ⭐ ❤️ ❤
 
-<img src="../img/apps/ivpn.svg" width="20" height="20" alt="IVPN" /> [IVPN](https://www.ivpn.net/en) <sup>[F-Droid](https://f-droid.org/en/packages/net.ivpn.client/)</sup> 🇬🇮 <sup>GI</sup> 👑 ⭐
+<img src="../img/apps/ivpn.svg" width="20" height="20" alt="IVPN" /> [IVPN](https://www.ivpn.net/en) <sup>[F-Droid](https://f-droid.org/en/packages/net.ivpn.client/) | [GitHub](https://github.com/ivpn)</sup> 🇬🇮 <sup>GI</sup> 👑 ⭐
 
-<img src="../img/apps/proton-vpn.svg" width="20" height="20" alt="Proton VPN" /> [Proton VPN](https://protonvpn.com/)</a> <sup>[F-Droid](https://f-droid.org/en/packages/ch.protonvpn.android/)</sup> 🇨🇭 <sup>CH</sp> ⭐
+<img src="../img/apps/proton-vpn.svg" width="20" height="20" alt="Proton VPN" /> [Proton VPN](https://protonvpn.com/)</a> <sup>[F-Droid](https://f-droid.org/en/packages/ch.protonvpn.android/) | [GitHub](https://github.com/ProtonVPN/)</sup> 🇨🇭 <sup>CH</sp> ⭐
 
 &nbsp;
 
