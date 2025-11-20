@@ -13,7 +13,7 @@ This file is part of Network Pro.
 # 📫 Email Clients
 
 **Network Pro Strategies** (Network Pro&trade;)<br />
-**Last Updated:** November 16, 2025
+**Last Updated:** November 19, 2025
 
 Email clients serve as the front line for managing digital correspondence—but not all prioritize user autonomy. This section highlights free and open-source email clients designed with privacy, local control, and open standards in mind. These tools offer robust features without data harvesting, enabling secure, customizable email access free from vendor lock-in or intrusive tracking.
 
@@ -34,16 +34,16 @@ Email clients serve as the front line for managing digital correspondence—but 
 
 <section id="email-clients"></section>
 
-<img src="../img/apps/fairemail.png" width="20" height="20" alt="FairEmail" /> [FairEmail](https://email.faircode.eu/) <sup>[F-Droid](https://f-droid.org/en/packages/eu.faircode.email/)</sup> 🇳🇱 <sup>NL</sup> 👑 ⭐ ❤️ ❤
+<img src="../img/apps/fairemail.png" width="20" height="20" alt="FairEmail" /> [FairEmail](https://email.faircode.eu/) <sup>[F-Droid](https://f-droid.org/en/packages/eu.faircode.email/) | [GitHub](https://github.com/M66B/FairEmail)</sup> 🇳🇱 <sup>NL</sup> 👑 ⭐ ❤️ ❤
 
 - An incredibly privacy-conscious app with lots of options and functionality.
 - Once you get past the learning curve, it's probably one of the best email clients period.
 
-<img src="../img/apps/k9mail.svg" width="20" height="20" alt="K-9 Mail" /> [K-9 Mail](https://k9mail.app/) <sup>[F-Droid](https://f-droid.org/en/packages/com.fsck.k9/)</sup> 🇺🇸 <sup>US</sup> 👑 ⭐
+<img src="../img/apps/k9mail.svg" width="20" height="20" alt="K-9 Mail" /> [K-9 Mail](https://k9mail.app/) <sup>[F-Droid](https://f-droid.org/en/packages/com.fsck.k9/) | [GitHub](https://github.com/thunderbird/thunderbird-android)</sup> 🇺🇸 <sup>US</sup> 👑 ⭐
 
 - K-9 Mail has long been one of the leading email clients on Android. It's mature, privacy-focused, and open source.
 
-<img src="../img/apps/thunderbird.png" width="20" height="20" alt="Thunderbird Mobile" /> [Thunderbird Mobile](https://www.thunderbird.net/en-US/mobile/) <sup>[F-Droid](https://f-droid.org/en/packages/net.thunderbird.android/)</sup> 🇺🇸 <sup>US</sup> ⭐
+<img src="../img/apps/thunderbird.png" width="20" height="20" alt="Thunderbird Mobile" /> [Thunderbird Mobile](https://www.thunderbird.net/en-US/mobile/) <sup>[F-Droid](https://f-droid.org/en/packages/net.thunderbird.android/) | [GitHub](https://github.com/thunderbird/thunderbird-android)</sup> 🇺🇸 <sup>US</sup> ⭐
 
 - Newer on the scene, but feature set is similar to K-9 Mail.
 

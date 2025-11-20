@@ -13,7 +13,7 @@ This file is part of Network Pro.
 # 📁 File Encryption Apps
 
 **Network Pro Strategies** (Network Pro&trade;)<br />
-**Last Updated:** November 16, 2025
+**Last Updated:** November 19, 2025
 
 File encryption tools safeguard sensitive information by making it unreadable to unauthorized users—crucial for protecting files at rest or in transit. This section features free and open-source solutions that empower users to secure local storage, cloud-synced files, and personal communications without surrendering control to proprietary systems or external services.
 
@@ -34,7 +34,7 @@ File encryption tools safeguard sensitive information by making it unreadable to
 
 <section id="encryption-apps"></section>
 
-<img src="../img/apps/cryptomator.png" width="20" height="20" alt="Cryptomator" /> [Cryptomator](https://cryptomator.org/) <sup>[F-Droid](https://f-droid.org/en/packages/org.cryptomator.lite/) | [Play Store](https://play.google.com/store/apps/details?id=org.cryptomator)</sup> 🇩🇪 <sup>DE</sup> 👑 ⭐ ❤
+<img src="../img/apps/cryptomator.png" width="20" height="20" alt="Cryptomator" /> [Cryptomator](https://cryptomator.org/) <sup>[F-Droid](https://f-droid.org/en/packages/org.cryptomator.lite/) | [Play Store](https://play.google.com/store/apps/details?id=org.cryptomator) | [GitHub](https://github.com/cryptomator/)</sup> 🇩🇪 <sup>DE</sup> 👑 ⭐ ❤
 
 - Note that the F-Droid version of Cryptomator **cannot** interface with Google Drive, as it is stripped of third-party libraries.
 - If you want Google Drive integration, use the Play Store version.
@@ -43,7 +43,7 @@ File encryption tools safeguard sensitive information by making it unreadable to
 
 - Veracrypt offers users encrypted volumes, and on some operating systems full disk encryption. It is a great option for those needing maximum security.
 
-<img src="../img/apps/openkeychain.png" width="20" height="20" alt="OpenKeychain" /> [OpenKeychain](https://www.openkeychain.org/) <sup>[F-Droid](https://f-droid.org/en/packages/org.sufficientlysecure.keychain/)</sup> 🇩🇪 <sup>DE</sup> 👑 ⭐ ❤
+<img src="../img/apps/openkeychain.png" width="20" height="20" alt="OpenKeychain" /> [OpenKeychain](https://www.openkeychain.org/) <sup>[F-Droid](https://f-droid.org/en/packages/org.sufficientlysecure.keychain/) | [GitHub](https://github.com/open-keychain/open-keychain)</sup> 🇩🇪 <sup>DE</sup> 👑 ⭐ ❤
 
 - OpenKeychain requires a compatible app, such as FairEmail, K-9 Mail, etc.
 

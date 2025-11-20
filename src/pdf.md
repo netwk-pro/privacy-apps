@@ -13,7 +13,7 @@ This file is part of Network Pro.
 # 📖 PDF Viewers
 
 **Network Pro Strategies** (Network Pro&trade;)<br />
-**Last Updated:** November 16, 2025
+**Last Updated:** November 19, 2025
 
 While often overlooked, PDF viewers can pose real privacy concerns—many mainstream apps include telemetry, cloud syncing, or unnecessary permissions. Privacy-focused alternatives like Simple PDF (developed by the GrapheneOS team), Librera Reader, and Sav PDF offer lightweight, offline-friendly viewing without tracking or bloat, making them ideal for secure document handling on mobile devices.
 
@@ -38,7 +38,7 @@ While often overlooked, PDF viewers can pose real privacy concerns—many mainst
 
 <img src="../img/apps/librera.png" width="20" height="20" alt="Librera Reader" /> [Librera Reader](https://librera.mobi/) <sup>[F-Droid](https://f-droid.org/en/packages/com.foobnix.pro.pdf.reader/) | [GitHub](https://github.com/foobnix/LibreraReader)</sup> 🇺🇦 <sup>UA</sup> 👑 ⭐
 
-<img src="../img/apps/sav-pdf.png" width="20" height="20" alt="Sav PDF Viewer" /> [Sav PDF Viewer](https://www.savpdfviewer.com/) <sup>[Play Store](https://play.google.com/store/apps/details?id=com.saverio.pdfviewer) | [GitHub](https://github.com/Sav22999/sav-pdf-viewer-pro)</sup>
+<img src="../img/apps/sav-pdf.png" width="20" height="20" alt="Sav PDF Viewer" /> [Sav PDF Viewer](https://www.savpdfviewer.com/) <sup>[Play Store](https://play.google.com/store/apps/details?id=com.saverio.pdfviewer) | [GitHub](https://github.com/Sav22999/sav-pdf-viewer-pro)</sup> 🇮🇹 <sup>IT</sup>
 
 &nbsp;
 

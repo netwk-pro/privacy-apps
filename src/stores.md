@@ -13,12 +13,12 @@ This file is part of Network Pro.
 # App Stores
 
 **Network Pro Strategies** (Network Pro&trade;)<br />
-**Last Updated:** November 16, 2025
+**Last Updated:** November 19, 2025
 
 App stores in the Android ecosystem include both independent repositories like **F-Droid**, which host and distribute apps directly, and client applications such as **Aurora Store** and **Droid-ify**, which act as alternative front-ends to existing stores like Google Play. While repositories maintain their own catalogs, client apps provide a way to access and download apps anonymously without a Google account, offering increased privacy without altering the underlying source.
 
-- [Independent Repositories](#repos)
 - [Client Apps](#stores)
+- [Independent Repositories](#repos)
 
 &nbsp;
 
@@ -32,26 +32,6 @@ App stores in the Android ecosystem include both independent repositories like *
     | ❤    | Personal Favorite          |
     | 💲    | Paid App or Service        |
     | 🌎    | Community-maintained       |
-
----
-
-<section id="repos"></section>
-
-## Independent Repositories
-
-<img src="../img/apps/fdroid.png" width="20" height="20" alt="F-Droid" /> [F-Droid](https://f-droid.org/) <sup>[GitLab](https://gitlab.com/fdroid/fdroidclient)</sup> 🌍 👑 ⭐
-
-- A fully independent, open-source app repository focused on free and privacy-respecting Android apps.
-- Emphasizes reproducible builds, no tracking, and strict inclusion policies for FLOSS (Free/Libre and Open Source Software).
-
-<img src="../img/apps/izzyondroid.svg" width="20" height="20" alt="IzzyOnDroid" /> [IzzyOnDroid](https://izzyondroid.org/) <sup>[App Repo](https://apt.izzysoft.de/fdroid/) | [Codeberg](https://codeberg.org/IzzyOnDroid)</sup> 🌍 👑 ⭐
-
-- A trusted third-party repository that provides prebuilt versions of apps not yet available (or eligible) on F-Droid.
-- Offers quicker access to newer or less strictly open-source apps, but does not guarantee reproducible builds.
-
-&nbsp;
-
-<sub>[Back to top](#top)</sub>
 
 ---
 
@@ -75,4 +55,22 @@ App stores in the Android ecosystem include both independent repositories like *
 
 <sub>[Back to top](#top)</sub>
 
-</section>
+---
+
+<section id="repos"></section>
+
+## Independent Repositories
+
+<img src="../img/apps/fdroid.png" width="20" height="20" alt="F-Droid" /> [F-Droid](https://f-droid.org/) <sup>[GitLab](https://gitlab.com/fdroid/fdroidclient)</sup> 🌍 👑 ⭐ ❤️
+
+- A fully independent, open-source app repository focused on free and privacy-respecting Android apps.
+- Emphasizes reproducible builds, no tracking, and strict inclusion policies for FLOSS (Free/Libre and Open Source Software).
+
+<img src="../img/apps/izzyondroid.svg" width="20" height="20" alt="IzzyOnDroid" /> [IzzyOnDroid](https://izzyondroid.org/) <sup>[App Repo](https://apt.izzysoft.de/fdroid/) | [Codeberg](https://codeberg.org/IzzyOnDroid)</sup> 🌍 👑 ⭐
+
+- A trusted third-party repository that provides prebuilt versions of apps not yet available (or eligible) on F-Droid.
+- Offers quicker access to newer or less strictly open-source apps, but does not guarantee reproducible builds.
+
+&nbsp;
+
+<sub>[Back to top](#top)</sub>

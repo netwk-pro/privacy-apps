@@ -20,6 +20,38 @@ This project adheres to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ---
 
+## [1.1.3] - 2025-11-19
+
+### Added
+
+- Image assets for Auxio, Booming Music, Breezy Weather, and QUIK SMS:
+  - `src/img/apps/auxio.png`
+  - `src/img/apps/booming-music.png`
+  - `src/img/apps/breezy-weather.png`
+  - `src/img/apps/quik-sms.png`
+- Added Auxio and Booming Music to the **Music** section.
+- Added Breezy Weather to the **Weather** section.
+- Replaced QKSMS in **Default Messaging** with QUIK SMS.
+
+### Changed
+
+- Added bullet points for all apps in the **Music** and **Navigation** categories.
+- Cleaned up the **Browsers** category by inserting horizontal rules and promoting titles to headings.
+- Added GitHub links for numerous projects where they were previously absent.
+- Modified `dev` script in `package.json` to run `mkdocs serve --livereload`, addressing an upstream issue with MkDocs.
+- Bumped project version to `v1.1.3`.
+
+### Removed
+
+- QKSMS has been removed from the **Default Messaging** category, as it is no longer actively maintained. QUIK SMS has been added in its place.
+- Removed image assets for QKSMS.
+
+### Fixed
+
+- Excessively small category images have now been properly sized and should be more visible.
+
+---
+
 ## [1.1.2] - 2025-11-18
 
 ### Added
@@ -163,7 +195,8 @@ This project adheres to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 <!-- Link references -->
 
-[Unreleased]: https://github.com/netwk-pro/privacy-apps/compare/v1.1.2...HEAD
+[Unreleased]: https://github.com/netwk-pro/privacy-apps/compare/v1.1.3...HEAD
+[1.1.3]: https://github.com/netwk-pro/privacy-apps/releases/tag/v1.1.3
 [1.1.2]: https://github.com/netwk-pro/privacy-apps/releases/tag/v1.1.2
 [1.1.1]: https://github.com/netwk-pro/privacy-apps/releases/tag/v1.1.1
 [1.1.0]: https://github.com/netwk-pro/privacy-apps/releases/tag/v1.1.0

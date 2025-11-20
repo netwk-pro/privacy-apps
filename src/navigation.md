@@ -10,10 +10,10 @@ This file is part of Network Pro.
 
 <a name="top"></a>
 
-# <img src="../img/navigation.png" width="20" height="20" alt="Navigation Apps (Maps)" /> Navigation Apps (Maps)
+# <img src="../img/navigation.png" width="35" height="35" alt="Navigation Apps (Maps)" /> Navigation Apps (Maps)
 
 **Network Pro Strategies** (Network Pro&trade;)<br />
-**Last Updated:** November 16, 2025
+**Last Updated:** November 19, 2025
 
 Most commercial navigation apps collect extensive location data, often building detailed user profiles for advertising or analytics. Privacy-respecting alternatives focus on offline functionality, minimal data retention, and open-source mapping ecosystems. This section highlights tools that offer reliable directions and map access without persistent tracking.
 
@@ -40,9 +40,18 @@ Most commercial navigation apps collect extensive location data, often building 
 
 <img src="../img/apps/gmaps.png" width="20" height="20" alt="GMaps WV" /> [GMaps WV](https://f-droid.org/en/packages/us.spotco.maps/) <sup>[GitHub](https://github.com/woheller69/maps)</sup> 🌎 👑 ⭐
 
+- An open‑source WebView‑based wrapper for Google Maps that aims to limit device‑level tracking by clearing data on exit and blocking non‑essential third‑party resources.
+- While it offers the familiar interface of Google Maps, it does not provide full‑fledged offline map data or turn‑by‑turn navigation as true OSM‑based apps do; instead it still depends on Google’s network services.
+
 <img src="../img/apps/organicmaps.png" width="20" height="20" alt="Organic Maps" /> [Organic Maps](https://organicmaps.app/) <sup>[F-Droid](https://f-droid.org/en/packages/app.organicmaps/) | [GitHub](https://github.com/organicmaps/organicmaps)</sup> 🇪🇪 <sup>EE</sup> 👑 ⭐
 
+- Fully open‑source and built on OpenStreetMap Foundation (OSM) map data — works offline with voice navigation, search, and no ads or tracking by default.
+- Because it’s community‑driven and designed with privacy in mind, you get strong data‑control and offline functionality, but features like live traffic or vast POI coverage may be less complete compared to larger commercial map services.
+
 <img src="../img/apps/osmand.png" width="20" height="20" alt="OsmAnd" /> [OsmAnd](https://osmand.net/) <sup>[F-Droid](https://f-droid.org/en/packages/net.osmand.plus/) | [GitHub](https://github.com/osmandapp/)</sup> 🇳🇱 <sup>NL</sup> 👑 ⭐
+
+- A powerful navigation and mapping app also based on OSM data, with rich features like hiking/biking routing, terrain layers, map editing, offline downloads and plugins for advanced use‑cases.
+- The trade‑off: its extensive features mean a steeper learning curve, and its free version may limit some offline downloads or updates, so you’ll want to check the plugin/store‑version details for full control.
 
 &nbsp;
 
