@@ -11,10 +11,10 @@ User-agent: *
 # Disallow dev and CI/CD artifacts
 Disallow: /tests/
 Disallow: /reports/
-Disallow: /build/
 
 # Allow everything else
 Allow: /
+Allow: /.well-known/
 
 # Inform bots where to find the sitemap
 Sitemap: https://apps.netwk.pro/sitemap.xml

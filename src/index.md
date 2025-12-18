@@ -60,7 +60,7 @@ A listing of the best apps and services—open source, where possible—for prot
 | 👑    | Privacy Community Favorite |
 | ❤️    | Top Recommendation         |
 | ⭐    | Highly Recommended         |
-| ❤    | Personal Favorite          |
+| ❤     | Personal Favorite          |
 | 💲    | Paid App or Service        |
 | 🌎    | Community-maintained       |
 

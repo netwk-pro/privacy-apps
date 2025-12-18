@@ -12,11 +12,54 @@ This file is part of Network Pro.
 
 All notable changes to this project will be documented in this file.
 
-This project adheres to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and uses [Semantic Versioning](https://semver.org/).
+This project follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+Version numbers use a **SemVer-inspired** `MAJOR.MINOR.PATCH` format, with
+version increments reflecting both user-visible and operational impact.
 
 ---
 
 ## [Unreleased]
+
+---
+
+## [1.2.0] - 2025-12-17
+
+### Added
+
+- Introduced `vercel.json` for Vercel-based static deployment, including:
+  - Explicit build instructions for MkDocs (Material for MkDocs)
+  - Deployment output directory configuration (`build/`)
+  - Centralized security headers and CSP reporting configuration
+- Added Vercel as the primary hosting platform for this site.
+- Added `VERSIONING.md` for clarity regarding how we implement versioning.
+
+### Changed
+
+- Migrated static site hosting from Netlify to Vercel.
+- Updated security header delivery mechanism from Netlify `_headers` to Vercel `headers` configuration.
+- Updated GitHub Actions workflows to use `actions/checkout@v6`:
+  - `.github/workflows/backup-branch.yml`
+  - `.github/workflows/dependency-review.yml`
+- Bumped project version to `v1.2.0`.
+- Updated frontend tooling dependencies:
+  - `@eslint/js` `^9.39.1` → `^9.39.2`
+  - `autoprefixer` `^10.4.22` → `^10.4.23`
+  - `browserslist` `^4.28.0` → `^4.28.1`
+  - `eslint` `^9.39.1` → `^9.39.2`
+  - `prettier` `^3.6.2` → `^3.7.4`
+  - `stylelint` `^16.25.0` → `^16.26.1`
+  - `markdownlint` `^0.39.0` → `^0.40.0`
+  - `markdownlint-cli2` `0.19.0` → `0.20.0`
+
+### Removed
+
+- Removed `netlify.toml` from the project root as Netlify is no longer the active deployment target.
+- Removed explicit `mkdocs-get-deps` from `requirements.txt`, as it is a transitive dependency managed by MkDocs.
+- Removed manually maintained `src/sitemap.xml` to allow Material for MkDocs to auto-generate the sitemap during build.
+
+### Deprecated
+
+- Netlify automated builds and deploy previews for this repository have been disabled as part of the migration to Vercel.
 
 ---
 
@@ -195,7 +238,8 @@ This project adheres to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 <!-- Link references -->
 
-[Unreleased]: https://github.com/netwk-pro/privacy-apps/compare/v1.1.3...HEAD
+[Unreleased]: https://github.com/netwk-pro/privacy-apps/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/netwk-pro/privacy-apps/releases/tag/v1.2.0
 [1.1.3]: https://github.com/netwk-pro/privacy-apps/releases/tag/v1.1.3
 [1.1.2]: https://github.com/netwk-pro/privacy-apps/releases/tag/v1.1.2
 [1.1.1]: https://github.com/netwk-pro/privacy-apps/releases/tag/v1.1.1
