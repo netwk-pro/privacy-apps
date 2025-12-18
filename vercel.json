@@ -1,5 +1,5 @@
 {
-  "buildCommand": "pip install -r requirements.txt && mkdocs build",
+  "buildCommand": "pip install -r requirements.txt && python -m mkdocs build",
   "outputDirectory": "build",
   "headers": [
     {
