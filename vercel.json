@@ -1,5 +1,8 @@
 {
-  "buildCommand": "pip install -r requirements.txt && python -m mkdocs build",
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
+  "installCommand": "python -m venv .venv && . .venv/bin/activate && python -m pip install -r requirements.txt",
+  "buildCommand": ". .venv/bin/activate && python -m mkdocs build --clean --site-dir build",
   "outputDirectory": "build",
   "headers": [
     {
